@@ -1,0 +1,38 @@
+{
+  "https://www.woolworths.com.au/shop/productdetails/727622/woolworths-rspca-approved-chicken-thigh-fillets-skinless-tray": {
+    "calories": 118.5,
+    "protein": 18.3,
+    "carbs": 0.0,
+    "fat": 5.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/727622/woolworths-rspca-approved-chicken-thigh-fillets-skinless-tray",
+    "product_name": "Woolworths RSPCA Approved Chicken Thigh Fillets Skinless Tray 1.3kg - 1.7kg"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/205222/woolworths-12-extra-large-free-range-eggs": {
+    "calories": 142.4,
+    "protein": 12.2,
+    "carbs": 1.3,
+    "fat": 9.9,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/205222/woolworths-12-extra-large-free-range-eggs",
+    "product_name": "Woolworths 12 Extra Large Free Range Eggs 700g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/105609/woolworths-sour-cream": {
+    "calories": 334.6,
+    "protein": 1.9,
+    "carbs": 2.2,
+    "fat": 36.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/105609/woolworths-sour-cream",
+    "product_name": "Woolworths Sour Cream 300mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/491820/hillview-tasty-shredded-cheese": {
+    "calories": 394.4,
+    "protein": 23.2,
+    "carbs": 1.0,
+    "fat": 33.8,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/491820/hillview-tasty-shredded-cheese",
+    "product_name": "Hillview Tasty Shredded Cheese 700g"
+  }
+}
