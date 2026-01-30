@@ -141,7 +141,7 @@ def format_shopping_list(aggregated: dict[str, dict], unit_weights: dict, select
     return "\n".join(lines)
 
 
-def render_shopping_image(aggregated: dict[str, dict], unit_weights: dict, selected_recipes: list[Path], output_path: Path) -> None:
+def render_shopping_image(aggregated: dict[str, dict], unit_weights: dict, output_path: Path) -> None:
     """Render the shopping list as a clean PNG image."""
     # Layout constants
     padding = 40
@@ -165,11 +165,6 @@ def render_shopping_image(aggregated: dict[str, dict], unit_weights: dict, selec
     lines: list[tuple[str, ImageFont.FreeTypeFont]] = []
     lines.append(("Shopping List", title_font))
     lines.append(("", body_font))  # spacer
-    lines.append(("Recipes", heading_font))
-    for recipe in selected_recipes:
-        lines.append((f"  {recipe.stem}", body_font))
-    lines.append(("", body_font))  # spacer
-    lines.append(("Ingredients", heading_font))
 
     sorted_items = sorted(aggregated.items(), key=lambda x: x[1]["name"].lower())
     for url, data in sorted_items:
@@ -263,7 +258,7 @@ def main():
     # Render shopping list as PNG to Obsidian vault (auto-syncs to phone)
     filename = f"{date.today().isoformat()}_Shopping_List.png"
     vault_path = VAULT_OUTPUT_DIR / filename
-    render_shopping_image(aggregated, unit_weights, selected_recipes, vault_path)
+    render_shopping_image(aggregated, unit_weights, vault_path)
     print(f"\nShopping list saved to: {vault_path}")
     print("It will auto-sync to your phone via Obsidian.")
 
