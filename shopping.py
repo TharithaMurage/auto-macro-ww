@@ -15,10 +15,14 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from PIL import Image, ImageDraw, ImageFont
+
 from parser import parse_recipe
 
 # Default recipes directory
 DEFAULT_RECIPES_DIR = Path(r"C:\Users\thari\Tharitha_OW\70 Reciepes")
+# Obsidian vault output directory (auto-syncs to phone)
+VAULT_OUTPUT_DIR = Path(r"C:\Users\thari\Tharitha_OW\70 Reciepes")
 UNIT_WEIGHTS_FILE = Path(__file__).parent / "unit_weights.json"
 
 
@@ -137,6 +141,75 @@ def format_shopping_list(aggregated: dict[str, dict], unit_weights: dict, select
     return "\n".join(lines)
 
 
+def render_shopping_image(aggregated: dict[str, dict], unit_weights: dict, selected_recipes: list[Path], output_path: Path) -> None:
+    """Render the shopping list as a clean PNG image."""
+    # Layout constants
+    padding = 40
+    line_height = 32
+    section_gap = 20
+    title_size = 28
+    heading_size = 20
+    body_size = 16
+
+    # Load fonts (Pillow default)
+    try:
+        title_font = ImageFont.truetype("arial.ttf", title_size)
+        heading_font = ImageFont.truetype("arialbd.ttf", heading_size)
+        body_font = ImageFont.truetype("arial.ttf", body_size)
+    except OSError:
+        title_font = ImageFont.load_default(title_size)
+        heading_font = ImageFont.load_default(heading_size)
+        body_font = ImageFont.load_default(body_size)
+
+    # Build lines to render
+    lines: list[tuple[str, ImageFont.FreeTypeFont]] = []
+    lines.append(("Shopping List", title_font))
+    lines.append(("", body_font))  # spacer
+    lines.append(("Recipes", heading_font))
+    for recipe in selected_recipes:
+        lines.append((f"  {recipe.stem}", body_font))
+    lines.append(("", body_font))  # spacer
+    lines.append(("Ingredients", heading_font))
+
+    sorted_items = sorted(aggregated.items(), key=lambda x: x[1]["name"].lower())
+    for url, data in sorted_items:
+        name = data["name"]
+        total_grams = data["total_grams"]
+        if url in unit_weights:
+            unit_info = unit_weights[url]
+            unit_weight = unit_info["unit_weight_g"]
+            unit_name = unit_info["unit_name"]
+            quantity = math.ceil(total_grams / unit_weight)
+            lines.append((f"  \u2610  {quantity}x {unit_name}", body_font))
+        else:
+            grams_str = f"{int(total_grams)}" if total_grams == int(total_grams) else f"{total_grams}"
+            lines.append((f"  \u2610  {grams_str}g {name}", body_font))
+
+    # Calculate canvas size
+    width = 500
+    y = padding
+    for text, font in lines:
+        if text == "":
+            y += section_gap
+        else:
+            y += line_height
+    height = y + padding
+
+    # Draw
+    img = Image.new("RGB", (width, height), "white")
+    draw = ImageDraw.Draw(img)
+
+    y = padding
+    for text, font in lines:
+        if text == "":
+            y += section_gap
+        else:
+            draw.text((padding, y), text, fill="black", font=font)
+            y += line_height
+
+    img.save(output_path)
+
+
 def main():
     # Parse command line args
     recipes_dir = DEFAULT_RECIPES_DIR
@@ -187,14 +260,12 @@ def main():
         print("No ingredients with URLs found.")
         sys.exit(0)
 
-    # Format shopping list
-    shopping_list = format_shopping_list(aggregated, unit_weights, selected_recipes)
-
-    # Write to markdown file
-    filename = f"{date.today().isoformat()}_Shopping_List.md"
-    output_path = Path.cwd() / filename
-    output_path.write_text(shopping_list, encoding='utf-8')
-    print(f"\nShopping list saved to: {output_path}")
+    # Render shopping list as PNG to Obsidian vault (auto-syncs to phone)
+    filename = f"{date.today().isoformat()}_Shopping_List.png"
+    vault_path = VAULT_OUTPUT_DIR / filename
+    render_shopping_image(aggregated, unit_weights, selected_recipes, vault_path)
+    print(f"\nShopping list saved to: {vault_path}")
+    print("It will auto-sync to your phone via Obsidian.")
 
 
 if __name__ == "__main__":
