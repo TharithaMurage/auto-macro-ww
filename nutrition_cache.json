@@ -34,5 +34,401 @@
     "fibre": 0.0,
     "source_url": "https://www.woolworths.com.au/shop/productdetails/491820/hillview-tasty-shredded-cheese",
     "product_name": "Hillview Tasty Shredded Cheese 700g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/334934/devondale-shredded-mozzarella-cheese": {
+    "calories": 280,
+    "protein": 28.0,
+    "carbs": 2.2,
+    "fat": 17.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/334934/devondale-shredded-mozzarella-cheese",
+    "product_name": "Devondale Shredded Mozzarella Cheese 600g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/694550/woolworths-basmati-rice": {
+    "calories": 339.4,
+    "protein": 7.0,
+    "carbs": 74.0,
+    "fat": 1.0,
+    "fibre": 1.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/694550/woolworths-basmati-rice",
+    "product_name": "Woolworths Basmati Rice 1kg"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/248679/old-el-paso-fajita-spice-mix-mexican-style": {
+    "calories": 272.5,
+    "protein": 7.0,
+    "carbs": 48.8,
+    "fat": 3.2,
+    "fibre": 8.5,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/248679/old-el-paso-fajita-spice-mix-mexican-style",
+    "product_name": "Old El Paso Fajita Spice Mix Mexican Style 40g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/437364/shan-seasoning-mix-biryani": {
+    "calories": 415.4,
+    "protein": 12.5,
+    "carbs": 62.5,
+    "fat": 12.5,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/437364/shan-seasoning-mix-biryani",
+    "product_name": "Shan Seasoning Mix Biryani Biryani 50g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/73073/woolworths-peanut-oil": {
+    "calories": 812.6,
+    "protein": 1.0,
+    "carbs": 1.0,
+    "fat": 92.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/73073/woolworths-peanut-oil",
+    "product_name": "Woolworths Peanut Oil 750mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/463666/chobani-greek-yogurt-natural-whole-milk": {
+    "calories": 86.0,
+    "protein": 8.6,
+    "carbs": 3.9,
+    "fat": 4.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/463666/chobani-greek-yogurt-natural-whole-milk",
+    "product_name": "Chobani Greek Yogurt Natural Whole Milk 907g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/768562/woolworths-julienne-carrots": {
+    "calories": 34.2,
+    "protein": 1.1,
+    "carbs": 5.1,
+    "fat": 1.0,
+    "fibre": 3.3,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/768562/woolworths-julienne-carrots",
+    "product_name": "Woolworths Julienne Carrots 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/768558/woolworths-frozen-sliced-beans": {
+    "calories": 27.7,
+    "protein": 1.9,
+    "carbs": 3.5,
+    "fat": 1.0,
+    "fibre": 3.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/768558/woolworths-frozen-sliced-beans",
+    "product_name": "Woolworths Frozen Sliced Beans 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/230392/ardmona-crushed-vine-ripened-tomatoes": {
+    "calories": 27.2,
+    "protein": 1.3,
+    "carbs": 5.3,
+    "fat": 0.1,
+    "fibre": 1.4,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/230392/ardmona-crushed-vine-ripened-tomatoes",
+    "product_name": "Ardmona Crushed Vine Ripened Tomatoes 400g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/248084/woolworths-extra-virgin-olive-oil": {
+    "calories": 812.6,
+    "protein": 1.0,
+    "carbs": 1.0,
+    "fat": 91.9,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/248084/woolworths-extra-virgin-olive-oil",
+    "product_name": "Woolworths Extra Virgin Olive Oil 500mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/577864/woolworths-beef-mince": {
+    "calories": 232.8,
+    "protein": 18.1,
+    "carbs": 1.0,
+    "fat": 18.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/577864/woolworths-beef-mince",
+    "product_name": "Woolworths Beef Mince 1kg"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/169853/woolworths-pork-mince": {
+    "calories": 205.8,
+    "protein": 18.0,
+    "carbs": 1.0,
+    "fat": 15.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/169853/woolworths-pork-mince",
+    "product_name": "Woolworths Pork Mince 800g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/39442/san-remo-spirals-pasta-no-16": {
+    "calories": 365.7,
+    "protein": 12.0,
+    "carbs": 72.0,
+    "fat": 2.0,
+    "fibre": 3.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/39442/san-remo-spirals-pasta-no-16",
+    "product_name": "San Remo Spirals Pasta No 16 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/324006/zanetti-parmigiano-reggiano-parmigiano-reggiano": {
+    "calories": 399.1,
+    "protein": 32.0,
+    "carbs": 0.0,
+    "fat": 30.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/324006/zanetti-parmigiano-reggiano-parmigiano-reggiano",
+    "product_name": "Zanetti Parmigiano Reggiano 200g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/663581/woolworths-black-beans-no-added-salt-can": {
+    "calories": 91,
+    "protein": 6.0,
+    "carbs": 12.0,
+    "fat": 0.4,
+    "fibre": 5.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/663581/woolworths-black-beans-no-added-salt-can",
+    "product_name": "Woolworths Black Beans No Added Salt Can 420g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/655419/huy-fong-sriracha-hot-chilli-sauce": {
+    "calories": 93,
+    "protein": 1.0,
+    "carbs": 19.0,
+    "fat": 1.0,
+    "fibre": 2.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/655419/huy-fong-sriracha-hot-chilli-sauce",
+    "product_name": "Huy Fong Sriracha Hot Chilli Sauce 266mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/144329/onion-brown": {
+    "calories": 40,
+    "protein": 1.1,
+    "carbs": 9.0,
+    "fat": 0.1,
+    "fibre": 1.7,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/144329/onion-brown",
+    "product_name": "Onion Brown"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/805951/primo-diced-pancetta": {
+    "calories": 458,
+    "protein": 14.0,
+    "carbs": 1.0,
+    "fat": 45.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/805951/primo-diced-pancetta",
+    "product_name": "Primo Diced Pancetta 150g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/750736/woolworths-canola-oil": {
+    "calories": 812.6,
+    "protein": 0.1,
+    "carbs": 7.4,
+    "fat": 91.9,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/750736/woolworths-canola-oil",
+    "product_name": "Woolworths Canola Oil 750mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/489128/ayam-100-natural-coconut-milk": {
+    "calories": 247.1,
+    "protein": 2.6,
+    "carbs": 3.9,
+    "fat": 24.3,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/489128/ayam-100-natural-coconut-milk",
+    "product_name": "Ayam 100% Natural Coconut Milk 400mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/8088/mckenzie-s-lentils-red": {
+    "calories": 322.7,
+    "protein": 25.2,
+    "carbs": 40.3,
+    "fat": 2.3,
+    "fibre": 19.3,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/8088/mckenzie-s-lentils-red",
+    "product_name": "McKenzie's Lentils Red 375g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/764541/woolworths-pork-shoulder-roast-boneless-boneless-small": {
+    "calories": 236,
+    "protein": 17.0,
+    "carbs": 0.0,
+    "fat": 18.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/764541/woolworths-pork-shoulder-roast-boneless-boneless-small",
+    "product_name": "Woolworths Pork Shoulder Roast Boneless"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/208895/potato-white-washed": {
+    "calories": 77,
+    "protein": 2.0,
+    "carbs": 17.0,
+    "fat": 0.1,
+    "fibre": 2.2,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/208895/potato-white-washed",
+    "product_name": "Potato White Washed"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/123905/la-molisana-extra-di-lusso-egg-pappardelle": {
+    "calories": 366.0,
+    "protein": 15.0,
+    "carbs": 66.0,
+    "fat": 4.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/123905/la-molisana-extra-di-lusso-egg-pappardelle",
+    "product_name": "La Molisana Extra Di Lusso Egg Pappardelle 250g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/745467/woolworths-celery-sticks-punnet": {
+    "calories": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/745467/woolworths-celery-sticks-punnet",
+    "product_name": "Woolworths Celery Sticks Punnet 300g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/135344/carrot-fresh": {
+    "calories": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/135344/carrot-fresh",
+    "product_name": "Carrots"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/713429/woolworths-garlic-head": {
+    "calories": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/713429/woolworths-garlic-head",
+    "product_name": "Garlic Head each"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/34559/campbell-s-real-stock-chicken-liquid-stock": {
+    "calories": 8.4,
+    "protein": 0.8,
+    "carbs": 1.1,
+    "fat": 0.1,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/34559/campbell-s-real-stock-chicken-liquid-stock",
+    "product_name": "Campbell's Real Stock Chicken Liquid Stock 500mL"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/255257/mckenzie-s-baking-aids-gelatine": {
+    "calories": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/255257/mckenzie-s-baking-aids-gelatine",
+    "product_name": "Unflavoured Gelatin"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/91990/leggo-s-australian-grown-tomato-paste-triple-concentrate-tub": {
+    "calories": 84.8,
+    "protein": 3.4,
+    "carbs": 14.6,
+    "fat": 0.5,
+    "fibre": 3.8,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/91990/leggo-s-australian-grown-tomato-paste-triple-concentrate-tub",
+    "product_name": "Leggo's Australian Grown Tomato Paste Triple Concentrate Tub 140g x 2 pack"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/826660/riverside-landing-chardonnay": {
+    "calories": 85.0,
+    "protein": 0.0,
+    "carbs": 3.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/826660/riverside-landing-chardonnay",
+    "product_name": "White Wine"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/88436/dairy-farmers-full-cream-milk-full-cream-milk": {
+    "calories": 61.9,
+    "protein": 3.4,
+    "carbs": 4.4,
+    "fat": 3.4,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/88436/dairy-farmers-full-cream-milk-full-cream-milk",
+    "product_name": "Dairy Farmers Full Cream Milk 2L"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/707364/woolworths-green-basil-punnet": {
+    "calories": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/707364/woolworths-green-basil-punnet",
+    "product_name": "Woolworths Green Basil Punnet 15g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/768558": {
+    "calories": 27.7,
+    "protein": 1.9,
+    "carbs": 3.5,
+    "fat": 1.0,
+    "fibre": 3.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/768558",
+    "product_name": "Woolworths Frozen Sliced Beans 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/116277/macro-organic-beetroot-punnet": {
+    "calories": 92.3,
+    "protein": 2.0,
+    "carbs": 8.6,
+    "fat": 5.0,
+    "fibre": 3.6,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/116277/macro-organic-beetroot-punnet",
+    "product_name": "Macro Organic Beetroot Punnet 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/187314/woolworths-broccolini-bunch": {
+    "calories": 35.9,
+    "protein": 3.2,
+    "carbs": 2.0,
+    "fat": 0.4,
+    "fibre": 2.5,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/187314/woolworths-broccolini-bunch",
+    "product_name": "Woolworths Broccolini Bunch each"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/698868": {
+    "calories": 884.3,
+    "protein": 0.1,
+    "carbs": 0.1,
+    "fat": 100.0,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/698868",
+    "product_name": "Woolworths Extra Virgin Spanish Olive Oil 1L"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/135369/woolworths-australian-grown-carrots": {
+    "calories": 31.8,
+    "protein": 0.8,
+    "carbs": 5.0,
+    "fat": 0.1,
+    "fibre": 4.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/135369/woolworths-australian-grown-carrots",
+    "product_name": "Woolworths Australian Grown Carrots 1kg"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/893028": {
+    "calories": 69.3,
+    "protein": 3.1,
+    "carbs": 8.3,
+    "fat": 2.6,
+    "fibre": 4.4,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/893028",
+    "product_name": "Le Phare Du Cap Bon Harissa Tube 70g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/99801": {
+    "calories": 50.9,
+    "protein": 0.5,
+    "carbs": 12.5,
+    "fat": 0.5,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/99801",
+    "product_name": "Nature Nate's 100% Pure Australian Raw & Unfiltered Honey 500g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/144497/onion-red": {
+    "calories": 40.0,
+    "protein": 1.1,
+    "carbs": 9.0,
+    "fat": 0.1,
+    "fibre": 1.7,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/144497/onion-red",
+    "product_name": "Red Onion"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/308611/ayam-coconut-milk-powder": {
+    "calories": 132.9,
+    "protein": 2.0,
+    "carbs": 4.6,
+    "fat": 11.8,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/308611/ayam-coconut-milk-powder",
+    "product_name": "Ayam Coconut Milk Powder 150g"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/140481/woolworths-rspca-approved-chicken-drumsticks-bulk": {
+    "calories": 154.2,
+    "protein": 17.6,
+    "carbs": 0.0,
+    "fat": 9.3,
+    "fibre": 0.0,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/140481/woolworths-rspca-approved-chicken-drumsticks-bulk",
+    "product_name": "Woolworths RSPCA Approved Chicken Drumsticks Bulk 1.1kg - 1.7kg"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/134034/gourmet-tomato": {
+    "calories": 18.0,
+    "protein": 0.9,
+    "carbs": 3.9,
+    "fat": 0.2,
+    "fibre": 1.2,
+    "source_url": "https://www.woolworths.com.au/shop/productdetails/134034/gourmet-tomato",
+    "product_name": "Gourmet Tomato"
   }
 }

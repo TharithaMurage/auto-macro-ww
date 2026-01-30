@@ -1,0 +1,18 @@
+{
+  "https://www.woolworths.com.au/shop/productdetails/144497/onion-red": {
+    "unit_weight_g": 150,
+    "unit_name": "Red Onion"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/144329/onion-brown": {
+    "unit_weight_g": 150,
+    "unit_name": "Brown Onion"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/134034/gourmet-tomato": {
+    "unit_weight_g": 100,
+    "unit_name": "Gourmet Tomato"
+  },
+  "https://www.woolworths.com.au/shop/productdetails/713429/woolworths-garlic-head": {
+    "unit_weight_g": 50,
+    "unit_name": "Garlic Head"
+  }
+}

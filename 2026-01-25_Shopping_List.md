@@ -1,0 +1,9 @@
+- [ ] 500g Carrot
+- [ ] 1500g Chicken Thigh
+- [ ] 3x Gourmet Tomato
+- [ ] 40g Le Phare Du Cap Bon Harissa Tube
+- [ ] 1000g Macro Organic Beetroot
+- [ ] 40g Nature Nate's 100% Pure Australian Raw & Unfiltered Honey
+- [ ] 4x Red Onion
+- [ ] 250g Woolworths Broccolini Bunch
+- [ ] 500g Woolworths Frozen Sliced Beans
